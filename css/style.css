@@ -1,4 +1,3 @@
-
 .centered-container{
     max-width: 1000px;
     margin-left: auto;
@@ -19,7 +18,6 @@
 
 /* navbar content */
 nav #navbar-inner{
-    border: 1px solid rgb(75, 255, 75);
     background-color: #00800080;
     /* test */
 
@@ -30,7 +28,6 @@ nav #navbar-inner{
 }
 
 nav #navbar-inner #nav-logo{
-    border: 1px solid rgb(1, 70, 1);
     background-color: rgba(18, 197, 18, 0.7);
     /* test */
 
@@ -39,7 +36,6 @@ nav #navbar-inner #nav-logo{
 }
 
 nav #navbar-inner #links{
-    border: 1px solid rgb(1, 70, 1);
     background-color: rgba(18, 197, 18, 0.7);
     /* test */
 
@@ -50,7 +46,6 @@ nav #navbar-inner #links{
 }
 
 nav #navbar-inner #login{
-    border: 1px solid rgb(1, 70, 1);
     background-color: rgba(18, 197, 18, 0.7);
     /* test */
 
@@ -80,7 +75,6 @@ nav #navbar-inner #links li{
 
 /* header content  */
 header #header-inner{
-    border: 1px solid rgb(255, 75, 75);
     background-color: #80000080;
     /* test */
 
@@ -97,7 +91,6 @@ header #header-inner{
 
 header #header-inner #title{
     background-color: rgba(197, 18, 18, 0.7);
-    border: 1px solid black;
     /* test */
 
     width: 500px;
@@ -107,7 +100,6 @@ header #header-inner #title{
 
 header #header-inner #title-text{
     background-color: rgba(197, 18, 18, 0.7);
-    border: 1px solid black;
 
     /* test */
 
@@ -118,7 +110,6 @@ header #header-inner #title-text{
 /* header buttons */
 header #header-inner #title-buttons{
     background-color: rgba(197, 18, 18, 0.7);
-    border: 1px solid black;
 
     /* test */
 
