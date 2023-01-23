@@ -29,7 +29,7 @@ nav #navbar-inner{
     justify-content: space-between;
 }
 
-nav #navbar-inner #logo{
+nav #navbar-inner #nav-logo{
     border: 1px solid rgb(1, 70, 1);
     background-color: rgba(18, 197, 18, 0.7);
     /* test */
@@ -418,4 +418,215 @@ main #fourth-section #sect4-bot #sect4-button{
 
     width: 100px;
     height: 50px;
+}
+
+
+/* footer content */
+footer #footer-inner{
+    background-color:#d8d7ff ;
+    /* test */
+
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* footer top division */
+footer #footer-inner #footer-top{
+    background-color:#2b43bb90 ;
+    /* test */
+
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+/* footer bottom division */
+footer #footer-inner #footer-bot{
+    background-color:#2b43bb90 ;
+    /* test */
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* footer top left divisions */
+
+/* left side */
+footer #footer-inner #footer-top #footer-top-left{
+    background-color: #ec071aa4;
+    /* test */
+
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+footer #footer-inner #footer-top-left #footer-title{
+    background-color: rgba(0, 255, 13, 0.46);
+    /* test */
+
+    width: auto;
+    height: 100px;
+    
+}
+
+footer #footer-inner #footer-top-left #footer-lenguage{
+    background-color: rgba(0, 255, 13, 0.46);
+    /* test */
+
+    width: auto;
+    height: 30px;
+    
+}
+
+footer #footer-inner #footer-top-left #footer-social{
+    background-color: rgba(0, 255, 13, 0.46);
+    /* test */
+
+    width: auto;
+    height: 50px;
+    
+}
+
+/* right side */
+footer #footer-inner #footer-top #footer-top-right{
+    background-color: #ec071aa4;
+
+    flex-grow: 1;
+}
+
+footer #footer-inner #footer-top #footer-top-right #footer-subtitles{
+    background-color: rgba(255, 255, 255, 0.421);
+    /* test */
+
+    width: 100%;
+    height: 100%;
+
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+footer #footer-inner #footer-top-right #footer-subtitles > li{
+
+    background-color: rgba(0, 0, 0, 0.567);
+    /* test */
+
+    width: 150px;
+    height: 100%;
+
+}
+
+/* subtitle prodotto */
+footer #footer-inner #footer-top-right #footer-subtitles #prodotto ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+footer #footer-inner #footer-top-right #footer-subtitles #prodotto li{
+    background-color: red;
+    /* test */
+
+    height: 30px;
+    width: 50px;
+}
+
+/* subtitle compagnia */
+
+footer #footer-inner #footer-top-right #footer-subtitles #compagnia ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+footer #footer-inner #footer-top-right #footer-subtitles #compagnia li{
+    background-color: red;
+    /* test */
+
+    height: 30px;
+    width: 50px;
+}
+
+/* subtitle risorse  */
+
+footer #footer-inner #footer-top-right #footer-subtitles #risorse ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+footer #footer-inner #footer-top-right #footer-subtitles #risorse li{
+    background-color: red;
+    /* test */
+
+    height: 30px;
+    width: 50px;
+}
+
+/* subtitle nome */
+footer #footer-inner #footer-top-right #footer-subtitles #nome ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+footer #footer-inner #footer-top-right #footer-subtitles #nome li{
+    background-color: red;
+    /* test */
+
+    height: 30px;
+    width: 50px;
+}
+
+footer #footer-inner #footer-bot #footer-logo{
+    background-color: blue;
+    /* test */
+
+    width: 150px;
+
+}
+
+footer #footer-inner #footer-bot #footer-button{
+    background-color: blue;
+    /* test */
+
+    width: 150px;
+
 }
