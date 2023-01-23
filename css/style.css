@@ -259,3 +259,163 @@ main #second-section #sect2-left #sect2-text{
     height: 100px;
     
 }
+
+/* main third section */
+main #third-section{
+    background-color: #390303a2;
+    /* test */
+
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+/* third section left half */
+main #third-section #sect3-left{
+    background-color: #fc030369;
+    /* test */
+    width: 400px;
+    height: 400px;
+
+    flex-grow: 1;
+
+}
+
+/* third section right half */
+main #third-section #sect3-right{
+    background-color: #fc030769;
+    /* test */
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+main #third-section #sect3-right #sect3-title{
+    background-color: #80000080;
+    /* test */
+
+    width: 200px;
+    height: 200px;
+
+}
+
+main #third-section #sect3-right #sect3-text{
+    background-color: #80000080;
+    /* test */
+    
+    width: 200px;
+    height: 100px;
+}
+
+main #fourth-section{
+    background-color: #033903a2;
+    /* test */
+
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main #fourth-section #sect4-top{
+    background-color: #03fc0369;
+    /* test */
+
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+main #fourth-section #sect4-mid{
+    background-color: #03fc0369;
+    /* test */
+
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #fourth-section #sect4-bot{
+    background-color: #03fc0369;
+    /* test */
+
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap:10px;
+}
+
+/* main fourth section top  */
+
+main #fourth-section #sect4-top #sect4-title{
+    background-color: #00800080;
+    /* test */
+
+    height: 50px;
+    width: 800px;
+}
+
+main #fourth-section #sect4-top #sect4-text{
+    background-color: #00800080;
+    /* test */
+
+    height: 50px;
+    width: 800px;
+
+}
+
+/* main fourth section mid  */
+
+main #fourth-section #sect4-mid #sect4-pic{
+    background-color: #00800080;
+    /* test */
+
+    height: 300px;
+    width: 800px;
+}
+
+/* main fourth section bot  */
+
+main #fourth-section #sect4-bot #sect4-subtitle{
+    background-color: #00800080;
+    /* test */
+
+    height: 50px;
+    width: 500px;
+}
+
+main #fourth-section #sect4-bot #sect4-button-container{
+    background-color: #00800080;
+    /* test */
+
+    height: 50px;
+    width: 500px;
+
+    display: flex;
+    justify-content: center;
+}
+
+main #fourth-section #sect4-bot #sect4-button{
+    background-color: #001f00eb;
+    /* test */
+
+    width: 100px;
+    height: 50px;
+}
