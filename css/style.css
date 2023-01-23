@@ -5,6 +5,19 @@
     margin-right: auto;
 }
 
+
+
+/* TUTTE LE GRANDEZZE SONO SPERIMENTALI */
+
+
+
+/* background navbar + header */
+#first-bg{
+    background-color: rgba(14, 1, 255, 0.185);
+    /* test */
+}
+
+/* navbar content */
 nav #navbar-inner{
     margin: 1px solid rgb(75, 255, 75);
     background-color: #00800080;
@@ -45,6 +58,7 @@ nav #navbar-inner #login{
     width: 100px;
 }
 
+/* navbar links  */
 nav #navbar-inner #links ul{
     list-style-type: none;
 
@@ -62,5 +76,75 @@ nav #navbar-inner #links li{
     width: 60px;
     height: 30px;
 
+}
 
+header #header-inner{
+    margin: 1px solid rgb(255, 75, 75);
+    background-color: #80000080;
+    /* test */
+
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+header #header-inner #title{
+    margin: rgb(70, 1, 1);
+    background-color: rgba(197, 18, 18, 0.7);
+    border: 1px solid black;
+    /* test */
+
+    width: 500px;
+    height: 100px;
+
+}
+
+header #header-inner #title-text{
+    margin: rgb(70, 1, 1);
+    background-color: rgba(197, 18, 18, 0.7);
+    border: 1px solid black;
+
+    /* test */
+
+    width: 500px;
+    height: 100px;
+}
+
+header #header-inner #title-buttons{
+    margin: rgb(70, 1, 1);
+    background-color: rgba(197, 18, 18, 0.7);
+    border: 1px solid black;
+
+    /* test */
+
+    width: 500px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+header #header-inner .mac-download{
+    background-color: rgb(49, 1, 1);
+    /* test */
+
+    height: 30px;
+    width: 100px;
+
+}
+
+header #header-inner .browser-open{
+    background-color: rgb(49, 1, 1);
+    /* test */
+
+    height: 30px;
+    width: 150px;
 }
