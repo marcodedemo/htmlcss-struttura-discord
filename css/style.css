@@ -1,0 +1,66 @@
+
+.centered-container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav #navbar-inner{
+    margin: 1px solid rgb(75, 255, 75);
+    background-color: #00800080;
+    /* test */
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav #navbar-inner #logo{
+    margin: rgb(1, 70, 1);
+    background-color: rgba(18, 197, 18, 0.7);
+    /* test */
+
+    height: 100%;
+    width: 100px;
+}
+
+nav #navbar-inner #links{
+    margin: rgb(1, 70, 1);
+    background-color: rgba(18, 197, 18, 0.7);
+    /* test */
+
+    height: 100%;
+
+    display: flex;
+    align-items: stretch;
+}
+
+nav #navbar-inner #login{
+    margin: rgb(1, 70, 1);
+    background-color: rgba(18, 197, 18, 0.7);
+    /* test */
+
+    height: 100%;
+    width: 100px;
+}
+
+nav #navbar-inner #links ul{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+
+}
+
+nav #navbar-inner #links li{
+    background-color: rgb(1, 49, 1);
+    /* test */
+
+    width: 60px;
+    height: 30px;
+
+
+}
