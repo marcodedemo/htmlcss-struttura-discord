@@ -158,7 +158,7 @@ main #first-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
 }
 /* first section left half */
 main #first-section #sect1-left{
@@ -181,6 +181,7 @@ main #first-section #sect1-right{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap:15px;
 }
 
@@ -191,7 +192,6 @@ main #first-section #sect1-right #sect1-title{
     width: 200px;
     height: 200px;
 
-    align-self: flex-start;
 }
 
 main #first-section #sect1-right #sect1-text{
@@ -200,4 +200,62 @@ main #first-section #sect1-right #sect1-text{
     
     width: 200px;
     height: 100px;
+}
+
+
+/* main second section */
+main #second-section {
+    background-color: #090339a2;
+    /* test */
+
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+/* second section left half */
+main #second-section #sect2-left{
+    background-color: #030ffc69;
+    /* test */
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+/* second section right half */
+main #second-section #sect2-right{
+    background-color: #030ffc69;
+    /* test */
+    width: 400px;
+    height: 400px;
+
+    flex-grow: 1;
+
+}
+
+/* second section left half content  */
+main #second-section #sect2-left #sect2-title{
+    background-color: #04008080;
+    /* test */
+
+    width: 200px;
+    height: 200px;
+
+}
+
+main #second-section #sect2-left #sect2-text{
+    background-color: #04008080;
+    /* test */
+    
+    width: 200px;
+    height: 100px;
+    
 }
